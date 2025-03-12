@@ -1,0 +1,90 @@
+/* Reset CSS để tránh lỗi trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8; /* Màu nền nhạt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.cv-container {
+    background-color: white;
+    padding: 30px;
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Header */
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.job-title {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Sections */
+.section-title {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+}
+
+.school {
+    font-size: 16px;
+    color: blue;
+    font-weight: bold;
+}
+
+.company {
+    font-size: 16px;
+    color: blue;
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: gray;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
